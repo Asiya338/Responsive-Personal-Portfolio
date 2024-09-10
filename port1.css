@@ -318,7 +318,7 @@ nav ul li a:hover::after {
     color: #fff;
     background: #ff004f;
     font-size: 12px;
-    padding: 10px 25px 10px 25px;
+    padding: 10px 15px 10px 15px;
     text-decoration: none;
     transition: 0.5s;
     margin-bottom: 15px;
@@ -378,6 +378,12 @@ form textarea:hover {
     color: #ff004f;
 }
 
+#msg {
+    color: #61b752;
+    margin-top: -14px;
+    display: block;
+    font-size: 12px;
+}
 
 
 /*_____________________media queries____*/
