@@ -343,9 +343,9 @@ form textarea {
     outline: none;
     color: white;
     background: #262626;
-    padding: 15px;
-    margin: 15px 0;
-    font-size: 18px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 14px;
     border-radius: 6px;
 
 }
