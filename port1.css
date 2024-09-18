@@ -39,6 +39,15 @@ nav {
     flex-wrap: wrap;
 }
 
+#element {
+    font-weight: 800;
+}
+
+.asiya {
+    font-weight: 800;
+    color: #ff004f;
+}
+
 .name {
     color: #ff004f;
     font-size: 24px;
@@ -91,7 +100,7 @@ nav ul li a:hover::after {
 
 /*about*****************/
 #about {
-    padding: 80px 0px;
+    padding: 20px 0px;
     color: #ababab;
 }
 
@@ -385,6 +394,225 @@ form textarea:hover {
     font-size: 12px;
 }
 
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 26px;
+    color: white;
+}
+
+/* Timeline Container */
+.timeline-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Timeline Styles */
+.timeline {
+    position: relative;
+    padding: 0 20px;
+    border-left: 4px solid #ff004f;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -12px;
+    width: 30px;
+    height: 30px;
+    background-color: #ff004f;
+    border-radius: 50%;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.15s ease-in-out, transform 0.15s ease-in-out;
+}
+
+.timeline-item :hover {
+    margin-bottom: 1px;
+}
+
+.timeline-item.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Date for Each Timeline Item */
+.timeline-date {
+    position: absolute;
+    top: 0;
+    left: -80px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff004f;
+}
+
+/* Content for Each Timeline Item */
+.timeline-content {
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 8px;
+    color: rgb(214, 214, 214);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.timeline-content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: -12px;
+    width: 24px;
+    height: 24px;
+    background-color: #ff004f;
+    border-radius: 50%;
+}
+
+.timeline-content:hover {
+    background-color: #ff004f;
+    color: #fff;
+
+
+}
+
+@media (max-width: 600px) {
+    .timeline-container {
+        margin: 10px;
+
+    }
+
+    .timeline-container h1 {
+        font-size: 16px;
+    }
+
+    .timeline-date {
+        left: -30px;
+        font-size: 12px;
+    }
+
+    .timeline-content h1 {
+        font-size: 13px;
+
+    }
+
+    .timeline-content p {
+        font-size: 11px;
+    }
+}
+
+.skills-container {
+    max-width: 1000px;
+    margin: 0px 60px;
+    padding: 20px;
+    margin-bottom: none;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.skills-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skill-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill-info {
+    display: flex;
+    align-items: center;
+    min-width: 150px;
+}
+
+.skill-info i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.skill-title {
+    font-size: 20px;
+    color: #fff;
+}
+
+.skill-title:hover,
+.skill-info i:hover {
+    color: #ff004f;
+    margin-left: 2px;
+}
+
+.bar-container {
+    width: 100%;
+}
+
+.bar {
+    width: 100%;
+    background-color: #ababab;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 30px;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+}
+
+.bar-fill {
+    height: 100%;
+    line-height: 30px;
+    text-align: right;
+    color: #ababab;
+    background-color: #fff;
+    /* Default color */
+    width: 0;
+    border-radius: 25px;
+    transition: width 5s ease-in-out;
+    font-weight: bold;
+    position: relative;
+    padding-right: 10px;
+}
+
+.bar-fill:hover {
+    background-color: #ff004f;
+    /* Hover color */
+}
+
+.percentage {
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+        /* Single column layout for smaller screens */
+    }
+
+
+}
 
 /*_____________________media queries____*/
 
