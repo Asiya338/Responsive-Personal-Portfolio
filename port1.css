@@ -616,26 +616,32 @@ h1 {
 }
 
 #projects {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
     background-color: #080808;
     text-align: center;
 }
 
+#projects h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
 .projects-container {
     display: flex;
     flex-direction: column;
-    /* Stack items vertically */
+
     align-items: center;
-    /* Center items */
+
 }
 
 .project {
     margin: 0px 0px;
-    /* Space between projects */
+
     width: 100%;
     text-align: center;
 }
