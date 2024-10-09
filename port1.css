@@ -609,12 +609,12 @@ h1 {
 
 @media (max-width:768px) {
     .skills-grid {
-        margin:0px 0px 0px 0px;
+       
         grid-template-columns: 1fr;
     }
 
     .bar {
-        width: 110%;
+        width: 100%;
     }
 }
 
@@ -892,7 +892,7 @@ h1 {
     }
 
     #portfolio {
-        padding: 15px 0;
+        padding: 2px 0;
 
     }
 
