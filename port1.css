@@ -609,8 +609,12 @@ h1 {
 
 @media (max-width:768px) {
     .skills-grid {
-       
+       gap:20px;
         grid-template-columns: 1fr;
+    }
+    .skills-column{
+        gap:8px;
+        
     }
 
     .bar {
