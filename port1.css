@@ -616,6 +616,11 @@ h1 {
         gap:8px;
         
     }
+    .skill-info i{
+font-size: 14px;
+    margin-right: 2px;
+        
+    }
 
     .bar {
         width: 100%;
