@@ -587,7 +587,7 @@ h1 {
     /* Default color */
     width: 0;
     border-radius: 25px;
-    transition: width 5s ease-in-out;
+    transition: width 60s ease-in-out;
     font-weight: bold;
     position: relative;
     padding-right: 10px;
