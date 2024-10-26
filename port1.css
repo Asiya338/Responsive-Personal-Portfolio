@@ -924,7 +924,7 @@ font-size: 14px;
     }
 
     .work img {
-        width: 150%;
+        width: 200%;
         margin-top: auto;
 
         border-radius: 7px;
@@ -941,7 +941,7 @@ font-size: 14px;
     .layer p {
 
         padding: 5px 5px 5px 5px;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .layer h3 {
