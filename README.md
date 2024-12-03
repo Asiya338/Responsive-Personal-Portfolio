@@ -2,6 +2,8 @@
 
 Welcome to my personal responsive portfolio! This project showcases my journey as a web developer, highlighting my skills, education, and projects.
 
+[![portfolio](https://i.postimg.cc/Xq8pKQJW/Screenshot-8.png)](https://postimg.cc/sGMjsP7H)
+
 ## Features
 
 - **About Me**: A brief introduction and my professional background.
